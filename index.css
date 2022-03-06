@@ -100,6 +100,10 @@ body {
   color: #FFFFF2;
 }
 
+.up-arrow:focus {
+  color: #FFFFF2;
+}
+
 .up-arrow:hover {
   color: #E9E5D6;
 }
