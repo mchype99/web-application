@@ -91,14 +91,14 @@ body {
 } 
 
 .btn{
-  background: #464E2E;
+  background-color: #464E2E;
   padding: 12px;
   width: 100px;
   color: #FFFFF2;
 }
 
-.btn:hover{
-  background: #3A4026 !important;
+.btn:hover {
+  background-color: #3A4026 !important;
   padding: 12px;
   width: 100px;
   color: #FFFFF2 !important;
