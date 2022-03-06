@@ -102,6 +102,9 @@ body {
   padding: 12px;
   width: 100px;
   color: #FFFFF2 !important;
+  border: 1px solid !important;
+  border-color: #464E2E !important;
+  box-shadow: 0 0 0 0.2rem rgba(233, 229, 214, 0.25) !important;
 }
 
 #tour {
