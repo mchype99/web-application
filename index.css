@@ -24,13 +24,17 @@ body {
 }
 
 .navbar ul li a:hover {
-  background-color: #3A4026;
+  background-color: #3A4026 !important;
   color:#FFFFF2;
   box-shadow: inset 0em .3em 0em 0em #E9E5D6;
 }
 
+.navbar ul li a:focus {
+  background-color: #464E2E;
+  color:#FFFFF2;
+}
+
 .open .dropdown-toggle {
-  color: #fff;
   background-color: #3A4026 !important;
   box-shadow: inset 0em .3em 0em 0em #E9E5D6;
 }
@@ -44,7 +48,6 @@ body {
   color: #FFFFF2 !important;
   box-shadow: none !important;
 }
-
 
 .jumbotron {
   margin: 0;
