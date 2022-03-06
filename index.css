@@ -70,6 +70,25 @@ body {
   background-color: #F1EEE4;
   padding-bottom: 15px;
 }
+.row .col-md-4, .glyphicon glyphicon-map-marker, .glyphicon glyphicon-phone, .glyphicon glyphicon-envelope {
+  font-size: 2rem;
+ 
+} 
+
+.row .glyphicon {
+  background-color: #464E2E;
+  font-size: 24px;
+  color: white;
+  border-radius: 50%;
+  padding: 16px;
+}
+
+.btn{
+  background: #464E2E;
+  padding: 12px;
+  width: 100px;
+  color: white;
+}
 
 #tour {
   padding-bottom: 15px;
