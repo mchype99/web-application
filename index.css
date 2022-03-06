@@ -85,6 +85,11 @@ body {
   padding: 16px;
 }
 
+.form-group:focus {
+  border-color: #464E2E;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+} 
+
 .btn{
   background: #464E2E;
   padding: 12px;
