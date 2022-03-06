@@ -61,18 +61,29 @@ body {
   background-size: cover;
 }
 
+.news {
+  background:#464E2E;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+
+}
 .bg-1 {
   background-color: #464E2E;
 }
 
 .bg-2 {
   background-color: #F1EEE4;
+  height: 600px;
+  
 }
 
 .bg-3 {
   background-color: #F1EEE4;
   padding-bottom: 15px;
 }
+
+
 .row .col-md-4, .glyphicon glyphicon-map-marker, .glyphicon glyphicon-phone, .glyphicon glyphicon-envelope {
   font-size: 2rem;
 }
@@ -90,6 +101,7 @@ body {
   padding: 12px;
   width: 100px;
   color: white;
+  
 }
 
 #tour {
