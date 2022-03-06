@@ -98,10 +98,10 @@ body {
 }
 
 .btn:hover{
-  background: #3A4026;
+  background: #3A4026 !important;
   padding: 12px;
   width: 100px;
-  color: #FFFFF2;
+  color: #FFFFF2 !important;
 }
 
 #tour {
