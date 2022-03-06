@@ -94,7 +94,14 @@ body {
   background: #464E2E;
   padding: 12px;
   width: 100px;
-  color: white;
+  color: #FFFFF2;
+}
+
+.btn:hover{
+  background: #3A4026;
+  padding: 12px;
+  width: 100px;
+  color: #FFFFF2;
 }
 
 #tour {
