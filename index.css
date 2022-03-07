@@ -127,14 +127,24 @@ body {
 
 .up-arrow {
   color: #FFFFF2;
+  border: 2px white solid;
+  border-radius: 50%;
+  padding: 15px;
+  
 }
 
 .up-arrow:focus {
   color: #FFFFF2;
+  border: 2px #6b6b6b;
+  border-radius: 50%;
+  padding: 15px;
 }
 
 .up-arrow:hover {
   color: #E9E5D6;
+  border: 2px #6b6b6b;
+  border-radius: 50%;
+  padding: 15px;
 }
 
 footer p{
