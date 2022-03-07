@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    background-color: rgb(226, 228, 231);
+
+  }
+
+.event-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.eventcontent {
+    background: white;
+    margin: 20px;
+    text-align: center;
+    height: 480px;
+    
+    
+}
+
+.eventcontent img{
+    width: 300px;
+    height: 300px;
+    
+    
+}
+
+.titleevent{
+    font-weight: 600;
+}
+
+.attend-signup{
+    border: 2px solid #464E2E; 
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 25px;
+    font-size: 2rem;
+    
+}
+
+.attend-signup:hover {
+    background-color: #3A4026 !important;
+    padding: 12px;
+    width: 100px;
+    color: #FFFFF2 !important;
+    border: 1px solid #FFFFF2 !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 242, 0.25) !important;
+}
