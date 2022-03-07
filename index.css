@@ -82,6 +82,10 @@ body {
   padding-bottom: 15px;
 }
 
+.bg-4 {
+  background-color: #FFFFF2;
+}
+
 
 .row .col-md-4, .glyphicon glyphicon-map-marker, .glyphicon glyphicon-phone, .glyphicon glyphicon-envelope {
   font-size: 2rem;
