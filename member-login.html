@@ -18,31 +18,32 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar bg-1 pt-0 pb-0">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand nav-link" href="#myPage">Logo</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">SERVICES & AMENITIES</a></li>
-          <li class="nav-item"><a class="nav-link" href="events.html">EVENTS</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
-          <li class="dropdown nav-item">
-          <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">LOGIN
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li class="nav-item"><a class="nav-link" href="employee.html">Employee Login</a></li>
-            <li class="nav-item"><a class="nav-link" href="member-login.html">Member Login</a></li>
-          </ul>
-        </li>
-        <li><a class="nav-link" href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+  <nav class="navbar navbar-expand-sm h-100 bg-1">
+    <div class="container-fluid h-100">
+      <a class="navbar-brand nav-link" href="#">LOGO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse h-100" id="navbarNavDropdown">
+        <ul class="nav navbar-nav ms-auto h-100 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">EVENTS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              LOGIN
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="employee-login.html">EMPLOYEE LOGIN</a></li>
+              <li><a class="dropdown-item" href="member-login.html">MEMBER LOGIN</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
