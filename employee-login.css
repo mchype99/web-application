@@ -5,6 +5,18 @@
     background-position: right center;
     background-size: auto 100%;
   }
+
+  .link-info {
+      color: #464E2E;
+  }
+
+  .link-info:focus {
+    color: #464E2E;
+}
+
+  .link-info:hover {
+      color: #3A4026;
+  }
   
   @media (min-width: 1025px) {
     .h-custom-2 {
