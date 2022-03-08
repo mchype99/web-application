@@ -6,6 +6,17 @@ body {
   min-height: 100%;
 }
 
+nav {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav .container-fluid {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
 .navbar {
   margin: 0;
   border: 0;
@@ -15,15 +26,23 @@ body {
   letter-spacing: 5px;
 }
 
+.h-100 {
+  min-height: 100% !important;
+  margin: 0px;
+  padding: 0;
+} 
+
 .nav-link {
   color: #FFFFF2;
+  height: 100%;
 }
 
 .nav-link:hover {
   color: #E9E5D6;
+
 }
 
-.navbar ul li a:hover {
+.nav-item:hover {
   background-color: #3A4026 !important;
   color:#FFFFF2;
   box-shadow: inset 0em .3em 0em 0em #E9E5D6;
@@ -79,6 +98,7 @@ body {
 
 .bg-3 {
   background-color: #F1EEE4;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
@@ -153,4 +173,8 @@ body {
 
 footer p{
   color: #FFFFF2;
+}
+
+#comment {
+  margin-top: 10px;
 }
