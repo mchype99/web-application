@@ -1,3 +1,7 @@
+body {
+  background-color: #F1EEE4;
+}
+
 .bg-image-vertical {
     position: relative;
     overflow: hidden;
