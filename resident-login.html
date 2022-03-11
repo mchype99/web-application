@@ -11,7 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="member-login.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  <script src="myScript.js"></script>
   <script src="myScript.js"></script>
@@ -20,45 +20,45 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-sm h-100 bg-1" id="top">
-    <div class="container-fluid h-100">
+      <div class="container-fluid h-100">
       <a class="navbar-brand nav-link" href="#">LOGO</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse h-100" id="navbarNavDropdown">
-        <ul class="nav navbar-nav ms-auto h-100 ">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">SERVICES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="events.html">EVENTS</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              LOGIN
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="member-login.html">MEMBER LOGIN</a></li>
-              <li><a class="dropdown-item" href="employee-login.html">EMPLOYEE LOGIN</a></li>
-            </ul>
-          </li>
-        </ul>
+          <div class="collapse navbar-collapse h-100" id="navbarNavDropdown">
+              <ul class="nav navbar-nav ms-auto h-100 ">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="resources.html">RESOURCES</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="events.html">EVENTS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      LOGIN
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="resident-login.html">RESIDENT LOGIN</a></li>
+                      <li><a class="dropdown-item" href="employee-login.html">EMPLOYEE LOGIN</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
       </div>
-    </div>
   </nav>
 
 <!-- Login Container -->
 <div class="container-fluid w-100 bg-3 height">
     <div class="flex bg-2 justify-content-center align-item-center w-100">
         <form class="form-signin">
-            <h1 class="h3 mb-3 font-weight-normal text-center">Member Login</h1>
+            <h1 class="h3 mb-3 font-weight-normal text-center">Resident Login</h1>
             <label for="inputEmail" class="sr-only">Email address</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+            <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
             <label for="inputPassword" class="sr-only">Password</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
             <div class="checkbox mb-3 text-center">
             <label>
                 <input type="checkbox" value="remember-me"> Remember me
@@ -72,10 +72,15 @@
 
 <!-- Footer -->
 <footer class="text-center bg-1 mb-0">
-    <a class="up-arrow" href="#top" data-toggle="tooltip" title="TO TOP">
-      <span class="fa fa-chevron-up"></span>
-    </a><br><br><br><br><br><br>
-    <p>Footer</p>
+  <a href="#top" data-toggle="tooltip" title="TO TOP">
+    <span class="fa-stack fa-1x">
+      <i class="fa fa-circle fa-stack-1x"></i>
+      <i class="fa fa-chevron-up fa-stack-1x"></i>
+    </span>
+  </a><br><br><br><br><br><br>
+  <p>Footer</p>
+  <div class="container-fluid bg-ft">
+  </div>
 </footer>
   <script src="js/scripts.js"></script>
 </body>

@@ -11,7 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="employee-login.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  <script src="myScript.js"></script>
   <script src="myScript.js"></script>
@@ -21,81 +21,86 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm h-100 bg-1" id="top">
         <div class="container-fluid h-100">
-          <a class="navbar-brand nav-link" href="#">LOGO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand nav-link" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse h-100" id="navbarNavDropdown">
-            <ul class="nav navbar-nav ms-auto h-100 ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="events.html">EVENTS</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  LOGIN
-                </a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="member-login.html">MEMBER LOGIN</a></li>
-                  <li><a class="dropdown-item" href="employee-login.html">EMPLOYEE LOGIN</a></li>
+        </button>
+            <div class="collapse navbar-collapse h-100" id="navbarNavDropdown">
+                <ul class="nav navbar-nav ms-auto h-100 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">RESOURCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">EVENTS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        LOGIN
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="resident-login.html">RESIDENT LOGIN</a></li>
+                        <li><a class="dropdown-item" href="employee-login.html">EMPLOYEE LOGIN</a></li>
+                        </ul>
+                    </li>
                 </ul>
-              </li>
-            </ul>
-          </div>
+            </div>
         </div>
-      </nav>
+    </nav>
 
   <!-- login form -->
   <section class="vh-100">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6 text-black bg-3">
-  
+
           <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-  
+
             <form style="width: 23rem;">
-  
+
               <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Employee Login</h3>
-  
+
               <div class="form-outline mb-4">
-                <input type="email" id="inputEmail" class="form-control form-control-lg" required autofocus />
+                <input type="email" name="email" id="inputEmail" class="form-control form-control-lg" required autofocus />
                 <label class="form-label" for="inputEmail">Email address</label>
               </div>
-  
+
               <div class="form-outline mb-4">
-                <input type="password" id="inputPassword" class="form-control form-control-lg" required />
+                <input type="password" name="password" id="inputPassword" class="form-control form-control-lg" required />
                 <label class="form-label" for="inputPassword">Password</label>
               </div>
-  
+
               <div class="pt-1 mb-4">
                 <button class="btn btn-info btn-lg btn-block" type="submit">Login</button>
               </div>
-  
+
               <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
               <p>Don't have an account? <a href="#!" class="link-info">Register here</a></p>
-  
+
             </form>
-  
+
           </div>
-  
+
         </div>
         <div class="col-sm-6 px-0 d-none d-sm-block">
-          <img src="bdbdbd.png" alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
+          <img src="login.jpeg" alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
         </div>
       </div>
     </div>
   </section>
     <!-- Footer -->
     <footer class="text-center bg-1 mb-0">
-        <a class="up-arrow" href="#top" data-toggle="tooltip" title="TO TOP">
-          <span class="fa fa-chevron-up"></span>
-        </a><br><br><br><br><br><br>
-        <p>Footer</p>
+      <a href="#top" data-toggle="tooltip" title="TO TOP">
+        <span class="fa-stack fa-1x">
+          <i class="fa fa-circle fa-stack-1x"></i>
+          <i class="fa fa-chevron-up fa-stack-1x"></i>
+        </span>
+      </a><br><br><br><br><br><br>
+      <p>Footer</p>
+      <div class="container-fluid bg-ft">
+      </div>
     </footer>
 </body>
 </html>

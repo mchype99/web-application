@@ -30,7 +30,7 @@ nav .container-fluid {
   min-height: 100% !important;
   margin: 0px;
   padding: 0;
-} 
+}
 
 .nav-link {
   color: #FFFFF2;
@@ -74,7 +74,7 @@ nav .container-fluid {
 }
 
 .jumbotron-image {
-  background-image: url(bdbdbd.png);
+  background-image: url(jumbo.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,25 +102,36 @@ nav .container-fluid {
   padding-bottom: 15px;
 }
 
+.bg-ft {
+  background-color: #3A4026;
+  padding-top: 20px;
+}
+
 .bg-4 {
   background-color: #FFFFF2;
 }
 
-
-.row .col-md-4, .fa fa-map-pin, .fa fa-phone, .fa fa-envelope {
-  font-size: 2rem;
+.fa-map-marker, .fa-phone, .fa-envelope, .fa-chevron-up {
+  font-size: 1rem;
+  color: white;
 }
 
 .ft p {
   font-size: 20px;
 }
 
-.row .fa {
-  background-color: #464E2E;
-  font-size: 18px;
-  color: white;
-  border-radius: 50%;
-  padding: 15px;
+.fa-circle {
+  color: #464E2E;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+footer .fa-circle {
+  color: #3A4026;
+  font-size: 2.3rem;
+  margin-top: 0;
+  margin-bottom:0;
 }
 
 .fc {
@@ -130,7 +141,7 @@ nav .container-fluid {
 .form-control:focus {
   border-color: #464E2E !important;
   box-shadow: 0 0 0 0.2rem rgba(70, 78, 46, 0.25) !important;
-} 
+}
 
 .btn{
   background-color: #464E2E;
@@ -150,7 +161,7 @@ nav .container-fluid {
 }
 
 .btn:focus {
-  color: #FFFFF2 !important;   
+  color: #FFFFF2 !important;
 }
 
 
@@ -158,11 +169,8 @@ nav .container-fluid {
   padding-bottom: 15px;
 }
 
-.up-arrow {
+.fa-chevron-up {
   color: #FFFFF2;
-  border-radius: 50%;
-  padding: 15px;
-  background-color: #3A4026;
 }
 
 .up-arrow:focus {
