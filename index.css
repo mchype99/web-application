@@ -157,6 +157,7 @@ footer .fa-circle {
   width: 100px;
   color: white;
   border: none !important;
+  font-weight: 600;
 }
 
 .btn:hover {

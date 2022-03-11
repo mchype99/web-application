@@ -16,7 +16,7 @@ html {
     
 }
 
-.eventcontent-1{
+.eventcontent-1, .eventcontent-2,.eventcontent-3 {
     background-color: white;
     width: 75%;
     height: 290px;
@@ -27,78 +27,98 @@ html {
     
 }
 
-.eventcontent-2{
-    background-color: white;
-    width: 75%;
-    height: 290px;
-    margin: 50px;
-    padding: 15px;
-    box-shadow: 5px 3px 15px 5px #8A8A8A;
-    position: relative;
-}
-
-.eventcontent-3{
-    background-color: white;
-    width: 75%;
-    height: 290px;
-    margin: 50px;
-    padding: 15px;
-    box-shadow: 5px 3px 15px 5px #8A8A8A;
-    position: relative;
-}
 .eventcontent-1 img{
     width: 400px;
-    height: 288px;
-   padding: -10px;
-   margin-top: -95px;
-   margin-left: 785px;
+    height: 290px;
+   padding: -20px;
+   margin-top: -15px;
+   margin-left: 790px;
    
-   
-    
-    
 }
 
 .eventcontent-2 img {
     width: 400px;
-    height: 288px;
-    padding: -10px;
-   margin-top: -95px;
-   margin-left: 785px;
+    height: 290px;
+   padding: -20px;
+   margin-top: -15px;
+   margin-left: 790px;
 }
 
 .eventcontent-3 img {
     width: 400px;
-    height: 288px;
-   padding: -10px;
-   margin-top: -95px;
-   margin-left: 785px;
+    height: 290px;
+   padding: -20px;
+   margin-top: -15px;
+   margin-left: 790px;
 }
 
-.date{
+
+.month {
     background-color: #3A4026;
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 40px;
+    right: 11px;
     color: white;
     text-transform: uppercase;
-    padding: 30px;
+    padding: 25px;
+    font-weight: 600;
     
 }
+
+.event-details h2 {
+    font-size: 42px;
+}
+
+.event-details {
+    position: absolute;
+    top: 30%;
+    right: 60%;
+}
+
+.clock-section {
+    position: relative;
+}
+.user-section {
+    position: absolute;
+    bottom: 0;
+    top: 35%;
+    left: 50%;
+}
+
+.fa-user {
+    color: black;
+}
+.events li {
+    list-style: none;
+}
+
+.event-details a {
+    text-decoration: none;
+    background: #3A4026;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 30px;
+    
+    
+}
+
 
 .eventcontent-1, .eventcontent-2, .eventcontent-3 {
     transition: transform 0.5s
 }
 
 .eventcontent-1:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .eventcontent-2:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .eventcontent-3:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .titleevent-right, p{
@@ -128,3 +148,4 @@ html {
     border: 1px solid #FFFFF2 !important;
     box-shadow: 0 0 0 0.2rem rgba(255, 255, 242, 0.25) !important;
 }
+
