@@ -31,7 +31,7 @@ nav .container-fluid {
 }
 
 .navbar-toggler:focus {
-  border: none !important;
+  box-shadow: inset 0 0 0 0.08rem #E9E5D6 !important;
 }
 
 .h-100 {
