@@ -81,8 +81,17 @@ html {
     right: 30px;
     color: white;
     text-transform: uppercase;
-    padding: 30px;
+    padding: 25px;
     
+}
+
+.month {
+    position: absolute;
+    top: 50px;
+    right: 11px;
+    color: white;
+    text-transform: uppercase;
+    padding: 25px;
 }
 
 .eventcontent-1, .eventcontent-2, .eventcontent-3 {
@@ -128,3 +137,4 @@ html {
     border: 1px solid #FFFFF2 !important;
     box-shadow: 0 0 0 0.2rem rgba(255, 255, 242, 0.25) !important;
 }
+
