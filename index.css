@@ -76,16 +76,55 @@ nav .container-fluid {
   box-shadow: none !important;
 }
 
+.bgimage {
+  width:100%;
+  height:500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+
+.inner {
+  background-color: rgba(70,78,46,0.5);
+  width: 100vw;
+  padding: 1rem;
+}
+
+.inner p {
+  color: #F1EEE4;
+}
+
+.inner h1 {
+  color: #F1EEE4;
+}
+
 .jumbotron {
   margin: 0;
   height: 600px;
 }
 
-.jumbotron-image {
+.jtimage {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-image: url(jumbo.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .news {
