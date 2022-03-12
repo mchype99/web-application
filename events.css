@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 html {
     height: 100%;
   }
@@ -5,147 +10,69 @@ html {
   body {
     min-height: 100%;
     background-color: rgb(226, 228, 231);
-
+    
   }
 
-.event-container{
-   display: block;
-   margin-left: 300px;
-   
+.jumbotron {
+ background-color: black;
+ margin: 70px;
+ margin-left: 250px;
+ width: 70%;
+ height: 700px;
+border-radius: 10px;
+ 
+}
+
+.jumbotron img {
+    height: 100%;
+    width: 100%;
+     
+}
+.event-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.eventbox img{
+    width: 350px;
     
     
 }
 
-.eventcontent-1, .eventcontent-2,.eventcontent-3 {
-    background-color: white;
-    width: 75%;
-    height: 290px;
-    margin: 50px;
-    padding: 15px;
-    box-shadow: 5px 3px 15px 5px #8A8A8A;
-    position: relative;
-    
-}
-
-.eventcontent-1 img{
-    width: 400px;
-    height: 290px;
-   padding: -20px;
-   margin-top: -15px;
-   margin-left: 790px;
-   
-}
-
-.eventcontent-2 img {
-    width: 400px;
-    height: 290px;
-   padding: -20px;
-   margin-top: -15px;
-   margin-left: 790px;
-}
-
-.eventcontent-3 img {
-    width: 400px;
-    height: 290px;
-   padding: -20px;
-   margin-top: -15px;
-   margin-left: 790px;
-}
-
-
-.month {
-    background-color: #3A4026;
-    position: absolute;
-    top: 40px;
-    right: 11px;
+.eventbox {
+    background-color: #464E2E;
+    border-radius: 10px;
+    margin: 45px;
     color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.eventbox span {
     text-transform: uppercase;
-    padding: 25px;
     font-weight: 600;
-    
 }
 
-.event-details h2 {
-    font-size: 42px;
-}
-
-.event-details {
+.event-nav {
     position: absolute;
-    top: 30%;
-    right: 60%;
+    top: 85%;
 }
 
-.clock-section {
-    position: relative;
-}
-.user-section {
-    position: absolute;
-    bottom: 0;
-    top: 35%;
-    left: 50%;
-}
-
-.fa-user {
-    color: black;
-}
-.events li {
-    list-style: none;
-}
-
-.event-details a {
-    text-decoration: none;
-    background: #3A4026;
-    padding: 15px;
-    color: white;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-left: 30px;
-    
-    
-}
-
-
-.eventcontent-1, .eventcontent-2, .eventcontent-3 {
+.eventbox {
     transition: transform 0.5s
 }
 
-.eventcontent-1:hover {
+.eventbox:hover {
     transform: scale(1.2);
 }
 
-.eventcontent-2:hover {
-    transform: scale(1.2);
-}
 
-.eventcontent-3:hover {
-    transform: scale(1.2);
-}
 
-.titleevent-right, p{
-    font-weight: 600;
-    text-align: center;
-    
-}
 
-.titleevent-left {
-    font-weight: 600;
-    text-align: center;
-}
-.attend-signup{
-    border: 2px solid #464E2E; 
-    border-radius: 25px;
-    padding: 15px;
-    margin-top: 25px;
-    font-size: 2rem;
-    
-}
 
-.attend-signup:hover {
-    background-color: #3A4026 !important;
-    padding: 12px;
-    width: 100px;
-    color: #FFFFF2 !important;
-    border: 1px solid #FFFFF2 !important;
-    box-shadow: 0 0 0 0.2rem rgba(255, 255, 242, 0.25) !important;
-}
 
+
+
+
+  
