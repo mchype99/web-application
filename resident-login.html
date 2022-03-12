@@ -10,7 +10,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="member-login.css">
+  <link rel="stylesheet" href="employee-login.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  <script src="myScript.js"></script>
@@ -18,90 +18,109 @@
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-sm h-100 bg-1" id="top">
-      <div class="container-fluid h-100">
-      <a class="navbar-brand nav-link" href="index.html">LOGO</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-          <div class="collapse navbar-collapse h-100" id="navbarNavDropdown">
-              <ul class="nav navbar-nav ms-auto h-100 ">
-                  <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="resources.html">RESOURCES</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="events.html">EVENTS</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      LOGIN
-                      </a>
-                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="resident-login.html">RESIDENT LOGIN</a></li>
-                      <li><a class="dropdown-item" href="employee-login.html">EMPLOYEE LOGIN</a></li>
-                      </ul>
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
-
-<!-- Login Container -->
-<div class="container-fluid w-100 bg-3 height">
-    <div class="flex bg-2 justify-content-center align-item-center w-100">
-        <form class="form-signin">
-            <h1 class="h3 mb-3 font-weight-normal text-center">Resident Login</h1>
-            <label for="inputEmail" class="sr-only">Email address</label>
-            <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-            <label for="inputPassword" class="sr-only">Password</label>
-            <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
-            <div class="checkbox mb-3 text-center">
-            <label>
-                <input type="checkbox" value="remember-me"> Remember me
-            </label>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm h-100 bg-1" id="top">
+        <div class="container-fluid h-100">
+        <a class="navbar-brand nav-link" href="index.html">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse h-100" id="navbarNavDropdown">
+                <ul class="nav navbar-nav ms-auto h-100 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">RESOURCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">EVENTS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        LOGIN
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="resident-login.html">RESIDENT LOGIN</a></li>
+                        <li><a class="dropdown-item" href="employee-login.html">EMPLOYEE LOGIN</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-            <div class="text-center pt-3 text-muted">Not a member? <a href="#">Sign up</a></div>
-        </form>
-    </div>
-</div>
+        </div>
+    </nav>
 
-<!-- Footer -->
-<footer class="bg-1 text-center" id="footer">
-    <a href="#top" data-toggle="tooltip" title="TO TOP">
-        <i class="fa fa-chevron-up"></i>
-    </a>
-    <div class="footer-top">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-3 col-md-6 footer-links text-center">
-                      <h4>Useful Links</h4>
-                      <ul class="list-unstyled">
-                          <li><i class="fa fa-chevron-right"></i> <a href="#">Home</a></li>
-                          <li><i class="fa fa-chevron-right"></i> <a href="#">About us</a></li>
-                          <li><i class="fa fa-chevron-right"></i> <a href="resources.html">Recources</a></li>
-                          <li><i class="fa fa-chevron-right"></i> <a href="#">Terms of service</a></li>                    </ul>
-                  </div>
-                  <div class="col-lg-3 col-md-6 footer-contact">
-                      <h4>Contact Us</h4>
-                      <p> A108 Adam Street <br> Boca Raton, FL 535022<br> United States <br><br> <strong>Phone:</strong> +1 (151)515-151<br> <strong>Email:</strong> mail@mail.com<br> </p>
-                  </div>
-                  <div class="col-lg-6 col-md-6 footer-info">
-                      <h3>About</h3>
-                      <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-                      <div class="social-links mt-3"> <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> </div>
-                  </div>
+  <!-- login form -->
+  <section class="vh-100">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 text-black bg-3">
+
+          <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
+
+            <form style="width: 23rem;">
+
+              <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Resident Login</h3>
+
+              <div class="form-outline mb-4">
+                <input type="email" name="email" id="inputEmail" class="form-control form-control-lg" required autofocus />
+                <label class="form-label" for="inputEmail">Email address</label>
               </div>
+
+              <div class="form-outline mb-4">
+                <input type="password" name="password" id="inputPassword" class="form-control form-control-lg" required />
+                <label class="form-label" for="inputPassword">Password</label>
+              </div>
+
+              <div class="pt-1 mb-4">
+                <button class="btn btn-info btn-lg btn-block" type="submit">Login</button>
+              </div>
+
+              <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
+              <p>Don't have an account? <a href="#!" class="link-info">Register here</a></p>
+
+            </form>
+
           </div>
+
+        </div>
+        <div class="col-sm-6 px-0 d-none d-sm-block">
+          <img src="rlogin.jpeg" alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
+        </div>
       </div>
-      <div class="container">
-          <div class="copyright"> © Copyright <strong><span>Logisic Owls</span></strong>. All Rights Reserved </div>
-      </div>
-  </footer>
-  <script src="js/scripts.js"></script>
+    </div>
+  </section>
+    <!-- Footer -->
+<footer class="bg-1 text-center" id="footer">
+  <a href="#top" data-toggle="tooltip" title="TO TOP">
+      <i class="fa fa-chevron-up"></i>
+  </a>
+  <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-links text-center">
+                    <h4>Useful Links</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-chevron-right"></i> <a href="#">Home</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="#">About us</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="resources.html">Recources</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="#">Terms of service</a></li>                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h4>Contact Us</h4>
+                    <p> A108 Adam Street <br> Boca Raton, FL 535022<br> United States <br><br> <strong>Phone:</strong> +1 (151)515-151<br> <strong>Email:</strong> mail@mail.com<br> </p>
+                </div>
+                <div class="col-lg-6 col-md-6 footer-info">
+                    <h3>About</h3>
+                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                    <div class="social-links mt-3"> <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright"> © Copyright <strong><span>Logisic Owls</span></strong>. All Rights Reserved </div>
+    </div>
+</footer>
 </body>
 </html>
