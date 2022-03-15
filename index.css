@@ -7,14 +7,14 @@ body {
 }
 
 nav {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 nav .container-fluid {
   height: 100%;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar {
@@ -47,7 +47,11 @@ nav .container-fluid {
 
 .nav-link:hover {
   color: #E9E5D6;
+}
 
+.navbar ul li a {
+  display:block;
+  line-height: 40px;
 }
 
 .nav-item:hover {
@@ -61,9 +65,17 @@ nav .container-fluid {
   color:#FFFFF2;
 }
 
+.fa-sign-out, .fa-user-circle {
+  font-size: 1.25rem !important;
+}
+
 .open .dropdown-toggle {
   background-color: #3A4026 !important;
   box-shadow: inset 0em .3em 0em 0em #E9E5D6;
+}
+
+.dropdown-toggle.caret-off::after {
+    display: none;
 }
 
 .dropdown-menu li a {
@@ -120,7 +132,6 @@ nav .container-fluid {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(jumbo.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -211,7 +222,6 @@ footer .fa-circle {
 .btn:focus {
   color: #FFFFF2 !important;
 }
-
 
 #tour {
   padding-bottom: 15px;
