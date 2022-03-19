@@ -39,7 +39,7 @@ html {
   .carousel-item p {
       margin-top: 70px;
       font-weight: 400;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
   }
   
   .text-block h2 {
@@ -62,50 +62,6 @@ html {
       margin-top: 200px;
       font-size: 1.1rem;
   }
-  
-/*.event-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
-}
-.eventbox img{
-    width: 350px;
-    
-    
-}
-
-.eventbox {
-    background-color: #464E2E;
-    border-radius: 10px;
-    margin: 25px;
-    color: white;
-    text-align: center;
-    font-weight: 400;
-    position: absolute;
-    top: 25%;
-}
-
-.eventbox span {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.event-nav {
-    position: absolute;
-    top: 100px;
-}
-
-.eventbox {
-    transition: transform 0.5s
-}
-
-.eventbox:hover {
-    transform: scale(1.2);
-}
-*/
-
   
 
 
