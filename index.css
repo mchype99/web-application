@@ -65,6 +65,35 @@ nav .container-fluid {
   color:#FFFFF2;
 }
 
+.box-slide{
+  position: absolute;
+  bottom: 45%;
+  right: 45%;
+  color: white;
+  font-size: 18px;
+ 
+  
+}
+
+.box-slide p {
+  text-align: center;
+}
+.box-slide h1 {
+  font-weight: 600;
+  font-size: 48px ;
+}
+.box-slide a {
+  text-decoration: none;
+  background-color: #3A4026;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: white;
+  margin: 80px;
+  text-transform: uppercase;
+
+}
+
 .fa-sign-out, .fa-user-circle {
   font-size: 1.25rem !important;
 }
