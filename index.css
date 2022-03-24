@@ -82,10 +82,12 @@ nav .container-fluid {
 .box-slide p {
   text-align: center;
 }
+
 .box-slide h1 {
   font-weight: 600;
   font-size: 48px ;
 }
+
 .box-slide a {
   text-decoration: none;
   background-color: #3A4026;
@@ -108,7 +110,6 @@ nav .container-fluid {
   margin: 0;
   padding: 0;
 }
-
 
 .fa-sign-out, .fa-user-circle {
   font-size: 1.25rem !important;
