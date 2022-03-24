@@ -4,6 +4,7 @@ html {
 
 body {
   min-height: 100%;
+  background-color: #F1EEE4;
 }
 
 nav {
@@ -67,12 +68,15 @@ nav .container-fluid {
 
 .box-slide{
   position: absolute;
-  bottom: 45%;
-  right: 45%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   color: white;
   font-size: 18px;
- 
-  
+  min-width: 294px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .box-slide p {
@@ -91,7 +95,18 @@ nav .container-fluid {
   color: white;
   margin: 80px;
   text-transform: uppercase;
+}
 
+#carouselExampleFade, .box-slide {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-inner, .carousel-item {
+  max-height: 600px;
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 .fa-sign-out, .fa-user-circle {
@@ -196,6 +211,10 @@ nav .container-fluid {
 
 .bg-4 {
   background-color: #FFFFF2;
+}
+
+.bg-5 {
+  background-color: #ffff;
 }
 
 .fa-map-marker, .fa-phone, .fa-envelope, .fa-chevron-up {
